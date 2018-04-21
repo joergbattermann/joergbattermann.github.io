@@ -6,15 +6,9 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://joergbattermann.com/</loc>
+  <loc>https://joergbattermann.com/</loc>
   <priority>0.5</priority>
   <lastmod>2014-01-26T14:21:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://joergbattermann.com/resume/</loc>
-  <priority>0.5</priority>
-  <lastmod>2011-03-30T23:01:59+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>

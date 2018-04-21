@@ -1,0 +1,611 @@
+/*  
+Theme Name: Clean Theme
+Theme URI: http://creativemarket.com/MakeTheWeb
+Author: MakeTheWeb
+Author URI: http://maketheweb.pl
+*/
+
+body {
+	margin: 0;
+	background-color: #fcfcfc;
+}
+
+a:link {
+	text-decoration: none;
+	color: rgba(0,0,0,0.3);
+}
+
+a:visited {
+	color: rgba(0,0,0,0.3);
+}
+
+#content {
+	width: 285px;
+	height: 241px;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -142px;
+}
+
+.business-card {
+	width: 240px;
+	height: 154px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-position: center center;
+	background-image: url(../img/business_card.jpg);
+	position: relative;
+	left: 50%;
+	margin-left: -120px;
+}
+
+.me {
+	width: 140px;
+	height: 185px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-position: center center;
+	background-image: url(../img/Joerg_Battermann.jpg);
+	position: relative;
+	left: 50%;
+	margin-left: -70px;
+}
+
+.avatar {
+	width: 140px;
+	height: 140px;
+	border-radius: 140px;
+	-webkit-border-radius: 140px;
+	-moz-border-radius: 140px;
+	background-position: center center;
+	background-image: url(../img/avatar.png);
+	position: relative;
+	left: 50%;
+	margin-left: -70px;
+}
+
+.avatar-precomposed {
+	width: 140px;
+	height: 140px;
+	background-position: center center;
+	background-image: url(../img/avatar.png);
+	position: relative;
+	left: 50%;
+	margin-left: -70px;
+}
+
+.icons-2 {
+	width: 80px;
+	height: 21px;
+	position: relative;
+	left: 50%;
+	margin-left: -40px;
+	margin-top: 15px;
+}
+
+.icons-3 {
+	width: 140px;
+	height: 21px;
+	position: relative;
+	left: 50%;
+	margin-left: -70px;
+	margin-top: 15px;
+}
+
+.icons-4 {
+	width: 200px;
+	height: 21px;
+	position: relative;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 15px;
+}
+
+.icons-5 {
+	width: 260px;
+	height: 21px;
+	position: relative;
+	left: 50%;
+	margin-left: -130px;
+	margin-top: 15px;
+}
+
+h1 {
+	margin: 5px 0 0 0;
+	font-family: source-sans-pro, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	color: rgba(0,0,0,0.7);
+	padding: 0;
+	cursor: default;
+}
+
+span {
+	font-family: source-sans-pro, sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,0.3);
+	display: block;
+	margin-top: 10px;
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	font-family: source-sans-pro, sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,0.3);
+	text-align: center;
+	position: fixed;
+	bottom: 25px;
+	width: 100%;
+	height: 23px;
+	cursor: default;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	 body { zoom: 50%; }
+	 footer {
+		 bottom: 10px;
+	 }
+}
+
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 321px) {
+	 body { zoom: 50%; }
+	 footer {
+		 bottom: 30px;
+	 }
+} 
+
+/* ICONS */
+
+.icon-dribbble {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/dribbble.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-github {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/github.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-twitter {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/twitter.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-facebook {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/facebook.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-forrst {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/forrst.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-mail {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/mail.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-behance {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/behance.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-deviantart {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/deviantart.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-skype {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/skype.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-appnet {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/appnet.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-googleplus {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/gplus.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-youtube {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/youtube.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-pinterest {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/pinterest.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-instagram {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/instagram.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-flickr {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/flickr.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-vimeo {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/vimeo.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-tumblr {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/tumblr.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.icon-linkedin {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icons/linkedin.png);
+	background-position: center top;
+	float: left;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+/* HOVER ICONS */
+
+.icon-dribbble:hover {
+	background-position: center bottom;
+}
+
+.icon-github:hover {
+	background-position: center bottom;
+}
+
+.icon-twitter:hover {
+	background-position: center bottom;
+}
+
+.icon-facebook:hover {
+	background-position: center bottom;
+}
+
+.icon-forrst:hover {
+	background-position: center bottom;
+}
+
+.icon-mail:hover {
+	background-position: center bottom;
+}
+
+.icon-behance:hover {
+	background-position: center bottom;
+}
+
+.icon-deviantart:hover {
+	background-position: center bottom;
+}
+
+.icon-skype:hover {
+	background-position: center bottom;
+}
+
+.icon-appnet:hover {
+	background-position: center bottom;
+}
+
+.icon-googleplus:hover {
+	background-position: center bottom;
+}
+
+.icon-youtube:hover {
+	background-position: center bottom;
+}
+
+.icon-pinterest:hover {
+	background-position: center bottom;
+}
+
+.icon-instagram:hover {
+	background-position: center bottom;
+}
+
+.icon-flickr:hover {
+	background-position: center bottom;
+}
+
+.icon-vimeo:hover {
+	background-position: center bottom;
+}
+
+.icon-tumblr:hover {
+	background-position: center bottom;
+}
+
+.icon-linkedin:hover {
+	background-position: center bottom;
+}
+
+/* ACTIVE ICONS */
+
+.icon-dribbble:active {
+	margin-top: 1px;
+}
+
+.icon-github:active {
+	margin-top: 1px;
+}
+
+.icon-twitter:active {
+	margin-top: 1px;
+}
+
+.icon-facebook:active {
+	margin-top: 1px;
+}
+
+.icon-forrst:active {
+	margin-top: 1px;
+}
+
+.icon-mail:active {
+	margin-top: 1px;
+}
+
+.icon-behance:active {
+	margin-top: 1px;
+}
+
+.icon-deviantart:active {
+	margin-top: 1px;
+}
+
+.icon-skype:active {
+	margin-top: 1px;
+}
+
+.icon-appnet:active {
+	margin-top: 1px;
+}
+
+.icon-googleplus:active {
+	margin-top: 1px;
+}
+
+.icon-youtube:active {
+	margin-top: 1px;
+}
+
+.icon-pinterest:active {
+	margin-top: 1px;
+}
+
+.icon-instagram:active {
+	margin-top: 1px;
+}
+
+.icon-flickr:active {
+	margin-top: 1px;
+}
+
+.icon-vimeo:active {
+	margin-top: 1px;
+}
+
+.icon-tumblr:active {
+	margin-top: 1px;
+}
+
+.icon-linkedin:active {
+	margin-top: 1px;
+}
+ 
+/* DEFINE FIRST ICON (NO LEFT MARGIN) */
+
+.first-icon {
+	margin-left: 0px;
+}
+
+/* RETINA */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	
+	.icon-dribbble {
+		background-image: url(../img/icons/dribbble@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-github {
+		background-image: url(../img/icons/github@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-twitter {
+		background-image: url(../img/icons/twitter@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-facebook {
+		background-image: url(../img/icons/facebook@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-forrst {
+		background-image: url(../img/icons/forrst@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-mail {
+		background-image: url(../img/icons/mail@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-behance {
+		background-image: url(../img/icons/behance@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-deviantart {
+		background-image: url(../img/icons/deviantart@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-skype {
+		background-image: url(../img/icons/skype@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-appnet {
+		background-image: url(../img/icons/appnet@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-googleplus {
+		background-image: url(../img/icons/gplus@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-youtube {
+		background-image: url(../img/icons/youtube@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-pinterest {
+		background-image: url(../img/icons/pinterest@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-instagram {
+		background-image: url(../img/icons/instagram@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-flickr {
+		background-image: url(../img/icons/flickr@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-vimeo {
+		background-image: url(../img/icons/vimeo@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-tumblr {
+		background-image: url(../img/icons/tumblr@2x.png);
+		background-size: 100%;
+	}
+	
+	.icon-linkedin {
+		background-image: url(../img/icons/linkedin@2x.png);
+		background-size: 100%;
+	}
+	
+	.avatar {
+		background-image: url(../img/avatar@2x.png);
+		background-size: 100%;
+	}
+	
+	.avatar-precomposed {
+		background-image: url(../img/avatar@2x.png);
+		background-size: 100%;
+	}
+	
+}
